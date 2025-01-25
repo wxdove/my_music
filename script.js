@@ -26,7 +26,7 @@ async function searchMusic() {
 
     try {
         // 使用环境变量来动态设置后端的 URL
-        const backendUrl = process.env.BACKEND_URL || 'http://127.0.0.1:5000'; // 本地开发时使用 localhost 地址，线上使用 Vercel 设置的环境变量
+        const backendUrl = "https://back-omega-two.vercel.app" || 'http://127.0.0.1:5000'; // 本地开发时使用 localhost 地址，线上使用 Vercel 设置的环境变量
 
         // 根据接口选择动态设置请求地址
         let apiUrl;
