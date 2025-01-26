@@ -1,4 +1,4 @@
-const CryptoJS=require('crypto-js')
+
 function RSAKeyPair(a, b, c) {
     this.e = biFromHex(a),
     this.d = biFromHex(b),
